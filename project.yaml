@@ -1,0 +1,74 @@
+# .project metadata for Kube-OVN
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kube-ovn"
+name: "Kube-OVN"
+description: "A Kubernetes Network Fabric for Enterprises that is Rich in Functions and Easy in Operations"
+type: "project"
+project_lead: "oilbeater" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#kube-ovn"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2021-01-26T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/1112" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kubeovn/kube-ovn"
+
+website: "https://kube-ovn.io"
+
+artwork: "https://landscape.cncf.io/logos/kube-ovn.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kubeovn/kube-ovn/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kubeovn/kube-ovn"
+
+social:
+  twitter: "https://twitter.com/KubeOvn"
+
+security:
+  policy:
+    path: "https://github.com/kubeovn/kube-ovn/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kubeovn/kube-ovn/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kubeovn/kube-ovn/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kubeovn/kube-ovn/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kubeovn/kube-ovn/blob/master/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kubeovn/kube-ovn/blob/master/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Network"
+
+# CLOMonitor Score: 64/100
+# Documentation: 80 | License: 75 | Best Practices: 26 | Security: 55
